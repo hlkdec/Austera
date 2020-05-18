@@ -1,0 +1,80 @@
+@media(max-width:1030px){
+	.uos_button_l{
+		background-color: #fff;
+		color: #2ebaee;
+	}
+	.cotc{
+		height: 100%;
+	}
+	.cotc_button{
+		margin:0 auto 10px;
+	}
+	.cotc_faces{
+		display: block;
+		flex-direction: column;
+		justify-content: none; 
+	}
+	.advantages{
+		display: block;
+		flex-direction: column;
+		justify-content: none;
+		text-align: center;
+	}
+	h3{
+		font-size: 36px;
+	}
+	.advantage_p{
+		font-size: 24px;
+	}
+	.uos_undertitle_l, .uos_undertitle_r{
+		font-size: 24px;
+	}
+	.ddm{
+		display:block;
+	}
+	.nav_i_1{
+		display: none;
+	}
+	.context_menu+ .ddm_list{
+		display: none;
+	}
+	.context_menu:hover+ .ddm_list{
+		display: inline-block;
+	}
+	.context_menu{
+		display:block;
+		float: right;
+		margin:0 30px 0 0;
+	}
+	.line{
+		width: 40px;
+		height: 5px;
+		border-color: #a3a3a3;
+		background-color: #a3a3a3;
+		margin-bottom: 10px;
+	}
+	.ddm_list_style{
+		display: inline-block;
+		width: 500px;
+		height: auto;
+		background-color: rgba(0,0,0,0.1);
+		border: solid 1px;
+		border-radius: 10px;
+		margin:0 10px 0 0;
+		border-color: #a3a3a3;
+	}
+	.ddm_item{
+		font-size: 42px;
+		list-style: none;
+		margin: 0 0 10px ;
+		text-decoration: none;
+		color: #a3a3a3;
+	}
+	.ddm_item:hover{
+		color:rgb(57,185,239);
+		text-decoration:underline;
+	}
+	.ddm_list{
+		float:left;
+	}
+}
